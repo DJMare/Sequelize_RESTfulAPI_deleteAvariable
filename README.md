@@ -54,7 +54,7 @@ COMMAND PROMPT
 
 VS CODE
 
-(13) Navigate to the routes/index.js file and require mysql2 in routes/index.js file.: ![Require mysql2 in routes-index js file (Sequelized_RESTfulAPI_updateAvariable)](https://user-images.githubusercontent.com/35668707/71291788-8df96680-2341-11ea-974a-224f3c56776b.JPG)
+(13) Navigate to the routes/index.js file and require mysql2 in routes/index.js file.: 
 
 COMMAND PROMPT
 
@@ -68,11 +68,11 @@ COMMAND PROMPT
     
 VS CODE
 
-(16) Create a new folder in your "models" folder called rel. Create a file in your rel folder called associations.js and define the relationships between the "film" and "actor" models in this file.: ![In models folder create rel folder and an associations js file in the rel folder (Sequelized_RESTfulAPI_updateAvariable)](https://user-images.githubusercontent.com/35668707/71291833-ac5f6200-2341-11ea-950a-0d887a6a51b3.JPG)
+(16) Create a new folder in your "models" folder called rel. Create a file in your rel folder called associations.js and define the relationships between the "film" and "actor" models in this file.: 
 
-(17) In the models/index.js file add associations constant and at the bottom of the models/index.js file add the call to associations function.: ![Call associations function in models-index js file (Sequelized_RESTfulAPI_updateAvariable)](https://user-images.githubusercontent.com/35668707/71292240-d3b62f00-2341-11ea-9f89-9171ce80c03e.JPG)
+(17) In the models/index.js file add associations constant and at the bottom of the models/index.js file add the call to associations function.: 
 
-(18) Open config/config.json file and change settings to connect to the database.: ![Update database connection info in config-config json file (Sequelized_RESTfulAPI_updateAvariable)](https://user-images.githubusercontent.com/35668707/71292277-ed577680-2341-11ea-8413-e55ce852c4a2.JPG)
+(18) Open config/config.json file and change settings to connect to the database.: 
 
 (19) Open app.js file at the root of the project and include the './model" folder so that the models are available everywhere in the application.: ![Add models in app js file (Sequelized_RESTfulAPI_updateAvariable)](https://user-images.githubusercontent.com/35668707/71292675-11b35300-2342-11ea-83ba-51ca4acb59c2.JPG)
 

@@ -72,7 +72,8 @@ VS CODE
 
 ![In models rel folder update associations js file (Sequelized_RESTfulAPI_deleteAvariable)](https://user-images.githubusercontent.com/35668707/71388217-69152580-25c5-11ea-883e-9ae847432511.JPG)
 
-(17) In the models/index.js file add associations constant and at the bottom of the models/index.js file add the call to associations function.: 
+(17) In the models/index.js file add associations constant and at the bottom of the models/index.js file add the call to associations function.: ![Call associations function in models-index js file (Sequelized_RESTfulAPI_deleteAvariable)](https://user-images.githubusercontent.com/35668707/71388314-d4f78e00-25c5-11ea-8b0d-b21841b23295.JPG)
+
 
 (18) Open config/config.json file and change settings to connect to the database.: 
 

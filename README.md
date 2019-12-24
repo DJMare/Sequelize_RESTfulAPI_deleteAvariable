@@ -74,13 +74,13 @@ VS CODE
 
 (18) Open config/config.json file and change settings to connect to the database.: 
 
-(19) Open app.js file at the root of the project and include the './model" folder so that the models are available everywhere in the application.: ![Add models in app js file (Sequelized_RESTfulAPI_updateAvariable)](https://user-images.githubusercontent.com/35668707/71292675-11b35300-2342-11ea-83ba-51ca4acb59c2.JPG)
+(19) Open app.js file at the root of the project and include the './model" folder so that the models are available everywhere in the application.: 
 
-(20) Add sequelize sync code above module.exports in the app.js file to ensure that the tables within the models in the project are the same as in the database.: Add models sequelize sync in app js file (Sequelized_RESTfulAPI_Post): ![Add models sequelize sync in app js file (Sequelized_RESTfulAPI_updateAvariable)](https://user-images.githubusercontent.com/35668707/71293040-327ba880-2342-11ea-9c21-677b36cfe16d.JPG)
+(20) Add sequelize sync code above module.exports in the app.js file to ensure that the tables within the models in the project are the same as in the database.: Add models sequelize sync in app js file (Sequelized_RESTfulAPI_Post): 
 
-(21) In the routes/index.js file require the models.: ![Require models in routes-index js file (Sequelized_RESTfulAPI_updateAvariable)](https://user-images.githubusercontent.com/35668707/71293087-4f17e080-2342-11ea-98a6-66186798142a.JPG)
+(21) In the routes/index.js file require the models.: 
 
-(22) In the routes/index.js file add put() route for /actors that will use the findAll() method.: ![Add put() route for actors id in index js file (Sequelized_RESTfulAPI_updateAvariable)](https://user-images.githubusercontent.com/35668707/71293144-6eaf0900-2342-11ea-9666-7c136e6986a4.JPG)
+(22) In the routes/index.js file add put() route for /actors that will use the findAll() method.: 
 
 COMMAND PROMPT
 

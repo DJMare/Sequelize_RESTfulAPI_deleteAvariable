@@ -90,7 +90,7 @@ COMMAND PROMPT
 
 POSTMAN
 
-(24) Navigate to localhost3000/actors/[insert specific id #] in Postman and perform a PUT request to add data.: ![update with  put() request in postman (Sequelized_RESTfulAPI_updateAvariable)](https://user-images.githubusercontent.com/35668707/71317017-5aedca80-2448-11ea-91c7-4aaf0e585739.JPG)
+(24) Navigate to localhost3000/actors/[insert specific id #] in Postman and perform a DELETE request to add data. 
 
 NODEMON NOTE
 
